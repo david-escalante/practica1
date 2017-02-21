@@ -35,3 +35,25 @@ footer {
     background-color: black;
     color: white;
 }
+
+@media screen and (min-width: 960px) {
+    nav ul li{
+        float: left;
+    }
+
+    article {
+        //float: clear;
+    }
+    nav ul{
+        padding-top: 0px;
+        padding-bottom: 30px;
+    }
+
+    nav ul li{
+        margin: 5px 5px 5px 5px;
+    }
+}
+
+.clear {
+    float: clear;
+}
